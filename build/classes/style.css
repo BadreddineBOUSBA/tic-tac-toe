@@ -1,0 +1,59 @@
+.button{
+-fx-background-color:rgb(30, 240, 50);
+-fx-padding:20px;
+-fx-text-fill:white;
+-fx-font-size:20px;
+}
+.button:hover{
+-fx-background-color:rgb(39, 200, 17);
+-fx-text-fill:white;
+-fx-cursor:hand; 
+}
+.text-field{
+   -fx-padding:10px; 
+   font-weight: bold
+}
+.anchor-table{
+    -fx-background-color:rgb(20, 230, 40);
+    -fx-padding:20px;
+    -fx-background-radius: 0px 25px 0px 0px; 
+}
+.text{ 
+-fx-font-size:17px;
+}
+.txt{
+    -fx-padding:20px;
+    -fx-min-width: 120px;
+    -fx-width:150px;
+    -fx-text-fill:white;
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-border-style: solid;  
+}
+.chart-table{
+    -fx-padding:60px;
+}
+.rect{
+   -fx-background-color:white; 
+   -fx-background-radius: 20px;
+    -fx-cursor: hand;
+}
+.success{
+    -fx-background-color:lightblue; 
+}
+.rect:hover{
+    -fx-background-color:rgb(255, 244, 230); 
+   
+}
+.success:hover{
+    -fx-background-color:rgb(10, 30, 220); 
+}
+.title-app>.label{
+    -fx-font-size: 55px;
+    -fx-text-fill:white;
+    -fx-padding: 15px;
+    -fx-font-family: "serif";  
+    -fx-background-color:lightgreen;
+    -fx-background-radius: 25px 25px 0px 25px; 
+}
+
